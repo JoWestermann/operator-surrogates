@@ -1,4 +1,4 @@
-# ONetCupGit
+# Tutorial on Operator Surrogates
 
 This repository provides a self-contained, pedagogical comparison of surrogate modelling approaches for parametric PDEs. The central example is a one-dimensional parametric diffusion problem whose coefficient field is drawn from a log-normal random field; a secondary example covers the Lotka-Volterra predator-prey ODE. Three surrogate families are implemented and compared: sparse-grid (Smolyak) interpolation, PCA-Net (a feedforward network operating in a PCA-reduced latent space), and the Fourier Neural Operator (FNO). The central goal is to understand the cost-accuracy trade-off of the different surrogate architectures.
 
