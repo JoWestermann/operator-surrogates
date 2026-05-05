@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onetcupgit"
+version = "0.1.0"
+description = "Surrogate modelling for parametric PDEs: sparse-grid interpolation, PCA-Net, and FNO"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["importer", "error"]
