@@ -18,6 +18,8 @@ All Python classes are defined inline in the notebook where the corresponding me
 
 ## Installation and Usage
 
+The installation is tested with Python 3.12.
+
 Navigate to the repository root. 
 
 Optionally, create a virtual environment:
@@ -37,3 +39,15 @@ Launch jupyter lab to explore the notebooks:
 ```bash
 jupyter lab
 ```
+
+Approximate runtimes on an Intel Core Ultra 7 255H (16 threads, 30 GB RAM, CPU only, Python 3.12):
+
+| Notebook | Runtime |
+|---|---|
+| `0_Diffusion.ipynb` | 3 s |
+| `1_Representation.ipynb` | 5 s |
+| `2_Interpolation.ipynb` | 17 s |
+| `3_PCANet.ipynb` | 3 min |
+| `4_FNO.ipynb` | 4.5 min |
+| `5_Comparison.ipynb` | 12 min |
+| `6_IVP.ipynb` | 1 min |
