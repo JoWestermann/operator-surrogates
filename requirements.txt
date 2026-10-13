@@ -4,5 +4,6 @@ numpy==2.2.6
 scipy==1.16.2
 matplotlib==3.10.6
 torch==2.11.0
+jax==0.11.2
 smolyax==1.0.0
 jupyterlab==4.4.7
